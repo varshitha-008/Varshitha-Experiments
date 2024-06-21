@@ -4,15 +4,25 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  background-color: #f0f0f0;
+  /* min-height: 100vh; */
+  /* background-color: #f0f0f0; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: 200px;
+
+  /* margin-left: 30%; */
+  /* background-color: black; */
 }
 
 .envelope {
   cursor: pointer;
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
   margin: 20px;
+  /* background-color: red; */
+  margin: auto;
+
 }
 
 .envelope img {
@@ -24,15 +34,22 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 100px;
+  width: 200px;
   padding: 20px;
   background-color: white;
   border: 1px solid #ccc;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   z-index: 1;
-  height: 100px;
+  height: 250px;
+  color:black;
+  background-color:rgb(230, 186, 105);
+  
 }
 
 .letter img {
   width: 100%;
+}
+.letter p{
+  font-size: 10px;;
+   
 }

@@ -11,6 +11,8 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
 }
 
 a {
@@ -53,6 +55,11 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+/* #root{
+
+  height: 480px;
+  width: 480px;
+} */
 
 @media (prefers-color-scheme: light) {
   :root {
